@@ -1,0 +1,68 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t hello:0.1.0-SNAPSHOT .[0m
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory C:\Users\sairen\Repository\carbonetes\foo-build\target\docker\stage[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#1 sha256:afac31c2d2b0db56a9c6c919b57d42ecea13f4945bf326716f9d74505c2c2c4c[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 988B 0.0s done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#2 sha256:0e8f9ea2d3c930c5fb80f09ce916ab6e5657890257664bcae34239b4ceb2a1f2[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:8[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:c1006613b124ab347fbb29ae49e2ab62add271baf34bdfe7a7a4c383ac159b76[0m
+[0m[[0m[31merror[0m] [0m[0m#3 ...[0m
+[0m[[0m[31merror[0m] [0m[0m#4 [auth] library/openjdk:pull token for registry-1.docker.io[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:9517f2bae6ebafa80910fdbda7816143db6020b31cdbec359ea2e21a451bceb6[0m
+[0m[[0m[31merror[0m] [0m[0m#4 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:8[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:c1006613b124ab347fbb29ae49e2ab62add271baf34bdfe7a7a4c383ac159b76[0m
+[0m[[0m[31merror[0m] [0m[0m#3 DONE 2.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:8[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:c1006613b124ab347fbb29ae49e2ab62add271baf34bdfe7a7a4c383ac159b76[0m
+[0m[[0m[31merror[0m] [0m[0m#3 DONE 2.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 [mainstage 1/5] FROM docker.io/library/openjdk:8@sha256:86e863cc57215cfb181bd319736d0baf625fe8f150577f9eb58bd937f5452cb8[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:1e7d9e224eeb34ef733a8ab6274c72dbf6d09407a6df09d7e6001657f4d7ee92[0m
+[0m[[0m[31merror[0m] [0m[0m#5 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#9 [internal] load build context[0m
+[0m[[0m[31merror[0m] [0m[0m#9 sha256:3c947b1c180fc8d6083a75b95b461fa04d226c7d040562063c0fab12a9e3a769[0m
+[0m[[0m[31merror[0m] [0m[0m#9 transferring context: 1.70kB done[0m
+[0m[[0m[31merror[0m] [0m[0m#9 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#10 [stage0 3/7] COPY 2/opt /2/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#10 sha256:8e7dd337d31c781b8ecef714a8a7fac5e79d3ef8e37292bcaae592ae34c91e26[0m
+[0m[[0m[31merror[0m] [0m[0m#10 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#11 [stage0 4/7] COPY 4/opt /4/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#11 sha256:c548c527f26a8c046dabcd09144fe2997fb843cc096dd6eba84935e103d9a8cf[0m
+[0m[[0m[31merror[0m] [0m[0m#11 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#8 [stage0 2/7] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#8 sha256:5baf574c51971f80b3ba8a85aa24c3351913ea2d2213962982666cbc830b51d3[0m
+[0m[[0m[31merror[0m] [0m[0m#8 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#15 [mainstage 4/5] COPY --from=stage0 --chown=demiourgos728:root /2/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#15 sha256:b0e495db69fa624215c09490562adc81fca4b8e644a0f71de5e855e6e9d1befc[0m
+[0m[[0m[31merror[0m] [0m[0m#15 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#6 [mainstage 2/5] RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent group 0 1>/dev/null 2>&1 || ( type groupadd 1>/dev/null 2>&1 && groupadd -g 0 root || addgroup -g 0 -S root )) && ( type useradd 1>/dev/null 2>&1 && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 || adduser -S -u 1001 -G root demiourgos728 ))[0m
+[0m[[0m[31merror[0m] [0m[0m#6 sha256:9d4ce5366b96b73afe5b8df202b486c073f5903a798bb34133f8d091a3dbd4ff[0m
+[0m[[0m[31merror[0m] [0m[0m#6 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#14 [stage0 7/7] RUN ["chmod", "u+x,g+x", "/4/opt/docker/bin/hello"][0m
+[0m[[0m[31merror[0m] [0m[0m#14 sha256:0065476e30a34bf519942f7f56a2cd69721c7ebe762b64461d59581b3833fb70[0m
+[0m[[0m[31merror[0m] [0m[0m#14 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#7 [mainstage 3/5] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#7 sha256:204238b8e6d6e881d5845bb982738c42b4cb93bac51994159df69c1208568565[0m
+[0m[[0m[31merror[0m] [0m[0m#7 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#13 [stage0 6/7] RUN ["chmod", "-R", "u=rX,g=rX", "/4/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#13 sha256:add54a81689d7337f2689718db1fd2eba166130410d3585d92650cac047f2919[0m
+[0m[[0m[31merror[0m] [0m[0m#13 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#12 [stage0 5/7] RUN ["chmod", "-R", "u=rX,g=rX", "/2/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#12 sha256:cf6168d7bb6d77c6021dd7a632bbebd1ae077648ba12e024195f5074a8527cd1[0m
+[0m[[0m[31merror[0m] [0m[0m#12 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#16 [mainstage 5/5] COPY --from=stage0 --chown=demiourgos728:root /4/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#16 sha256:b7af6f98d7959bd1f1f013ea3ed4165766970bcd59a845c0e35dcf3b024a5c0c[0m
+[0m[[0m[31merror[0m] [0m[0m#16 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#17 exporting to image[0m
+[0m[[0m[31merror[0m] [0m[0m#17 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00[0m
+[0m[[0m[31merror[0m] [0m[0m#17 exporting layers done[0m
+[0m[[0m[31merror[0m] [0m[0m#17 writing image sha256:2cb4cc000b3a6bff98ab20c914fd364253271d4cbfb765833c33d7386d378287 done[0m
+[0m[[0m[31merror[0m] [0m[0m#17 naming to docker.io/library/hello:0.1.0-SNAPSHOT done[0m
+[0m[[0m[31merror[0m] [0m[0m#17 DONE 0.0s[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=e5ab78b8-78a0-4ebc-ad37-238a23475b42") [0m
+[0m[[0m[0minfo[0m] [0m[0mTotal reclaimed space: 0B[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image hello with tags [0.1.0-SNAPSHOT][0m

@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\sairen\Repository\carbonetes\foo-build\HelloSuite.scala:1:26: not found: value munit[0m
+[0m[[0m[31merror[0m] [0m[0mclass HelloSuite extends munit.FunSuite {[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\sairen\Repository\carbonetes\foo-build\HelloSuite.scala:2:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("Hello should start with H") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
